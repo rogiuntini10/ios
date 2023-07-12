@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>configuração</title>
+    <body>
+        <div class="toggle-switch">
+           <input type="checkbox" id="toggle"/>
+           <label for="toggle"></label>
+        </div>
+
+    <style>
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle-switch label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  border-radius: 34px;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+
+.toggle-switch label:before {
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: white;
+  top: 4px;
+  left: 4px;
+  transition: transform 0.4s;
+}
+
+.toggle-switch input:checked + label {
+  background-color: #09ff00;
+}
+
+.toggle-switch input:checked + label:before {
+  transform: translateX(26px);
+}
+h2{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+    </style>
+    <h2> política da privacidade e confia o cookies</h2>
+    <p> A política de privacidade geralmente é disponibilizada em sites, aplicativos e outros serviços online para informar os usuários sobre como suas informações pessoais serão tratadas e protegidas pela organização responsável. Ela descreve os tipos de informações coletadas, o objetivo da coleta, como as informações serão usadas, compartilhadas e protegidas, bem como os direitos e opções do usuário em relação aos seus dados pessoais.</p>
+    </body>
+  </head>
+</html>
